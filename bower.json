@@ -1,0 +1,28 @@
+{
+  "name": "angular-template-cache-resolver",
+  "main": "",
+  "main": [
+    "./angular-template-cache-resolver.js",
+    "./angular-template-cache-resolver.min.js",
+    "./angular-template-cache-resolver.min.js.map"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://github.com/leftstick/angular-template-cache-resolver",
+  "authors": [
+    "Howard.Zuo"
+  ],
+  "description": "template cache resolver",
+  "keywords": [
+    "angular",
+    "template",
+    "cache"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
