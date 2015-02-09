@@ -6,7 +6,7 @@
     "./angular-template-cache-resolver.min.js",
     "./angular-template-cache-resolver.min.js.map"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/leftstick/angular-template-cache-resolver",
   "authors": [
     "Howard.Zuo"

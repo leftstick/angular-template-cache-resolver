@@ -11,7 +11,7 @@
  * while application launched, and append this hash as a search parameter to the template request
  *
  * @author Howard.Zuo
- * @date   Jan 25th, 2015
+ * @date   Feb 9th, 2015
  *
  **/
 (function(angular) {
@@ -22,10 +22,16 @@
         var mod = angular.module('angular-template-cache-resolver', []);
 
         var endwith = function(src, what) {
+            if (!src) {
+                return;
+            }
             return src.indexOf(what, src.length - what.length) !== -1;
         };
 
         var contains = function(src, what) {
+            if (!src) {
+                return;
+            }
             return src.indexOf(what) > -1;
         };
 
